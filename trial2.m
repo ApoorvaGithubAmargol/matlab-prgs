@@ -26,6 +26,6 @@ title('Filtered Image (Gaussian)');
 edges = edge(grayImage, 'Canny');
 
 % Display the edges
-% figure;
-% imshow(edges);
-% title('Edge Detection (Canny)');
+figure;
+imshow(edges);
+title('Edge Detection (Canny)');
